@@ -6,19 +6,31 @@ body {
 header.mainmenu {
     background-color: #3b3b3b;
     height: 7%;
-    margin: 2% 3% 2%;
+    margin: 15% 3% 2%;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
 }
 
+div.Logo {
+    position: absolute;
+    max-width:100%;
+    height:auto;
+    object-fit: contain;
+    top: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div.Home, div.Characters, div.Lore, div.DiscordBot, div.Patreon{
-    margin: 2% 3% 2%;
+    margin: 1% 7% 2%;
     font-family: "Verdana", cursive, sans-serif;
-    top: 15%;
-    margin-bottom: -10%;
+    top: 0%;
+    bottom: 20%;
     font-size: 22;
+    text-align: center;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
     display: inline-block;
