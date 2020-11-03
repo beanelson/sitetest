@@ -5,12 +5,29 @@ body {
 
 header.mainmenu {
     background-color: #3b3b3b;
-    height: 100px;
-    margin: 35px 50px 20px;
+    height: 7%;
+    margin: 2% 3% 2%;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
 
-div.mainheader{
-    text-align: center;
+div.Home, div.Characters, div.Lore, div.DiscordBot, div.Patreon{
+    margin: 2% 3% 2%;
+    font-family: "Verdana", cursive, sans-serif;
+    top: 15%;
+    margin-bottom: -10%;
+    font-size: 22;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration-color: #FFFFFF;
+    text-shadow: #000000 3px 3px 5px; 
+}
+
+div.Home:hover, div.Characters:hover, div.Lore:hover, div.DiscordBot:hover, div.Patreon:hover { 
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 5px solid #ffffff
 }
